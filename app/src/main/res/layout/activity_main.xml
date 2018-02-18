@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhinavchinta.softwareproject.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#b0aac2"
+            android:id="@+id/fan"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/fan1"
+                android:layout_marginLeft="35dp"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f2efe8"
+            android:id="@+id/light"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/light"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:background="#c2d4d8"
+            android:id="@+id/temp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/temperature"
+                android:layout_marginLeft="20dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="#dbe9d8"
+            android:id="@+id/call"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/phone"
+                android:layout_marginLeft="20dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
